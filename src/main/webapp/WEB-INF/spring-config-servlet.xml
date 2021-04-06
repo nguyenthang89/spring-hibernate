@@ -9,6 +9,10 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
 
+<mvc:annotation-driven/>
+<mvc:resources mapping="/resources/**" location="/resources/" cache-period="31556926" />
+
+
 	<context:annotation-config />
 	<context:component-scan base-package="stackjava.com.springmvchibernate" />
 	<bean
@@ -50,6 +54,7 @@
 		<property name="packagesToScan" value="stackjava.com.springmvchibernate.entities" />
 		<property name="hibernateProperties" value="classpath:hibernate.properties" />
 	</bean>
-
+	
+	
 
 </beans>

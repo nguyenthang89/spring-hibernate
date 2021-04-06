@@ -1,4 +1,4 @@
-package stackjava.com.springmvchibernate.controller;
+package springmvc.hibernate.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import stackjava.com.springmvchibernate.entities.Customer;
-import stackjava.com.springmvchibernate.service.CustomerService;
+import springmvc.hibernate.entities.Customer;
+import springmvc.hibernate.service.CustomerService;
 
 @Controller
 public class CustomerController {

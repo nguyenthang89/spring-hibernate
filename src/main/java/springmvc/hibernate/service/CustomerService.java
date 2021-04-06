@@ -1,4 +1,4 @@
-package stackjava.com.springmvchibernate.service;
+package springmvc.hibernate.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import stackjava.com.springmvchibernate.dao.CustomerDAO;
-import stackjava.com.springmvchibernate.entities.Customer;
+import springmvc.hibernate.dao.CustomerDAO;
+import springmvc.hibernate.entities.Customer;
 
 @Service
 @Transactional

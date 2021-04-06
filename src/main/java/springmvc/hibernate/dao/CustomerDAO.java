@@ -1,4 +1,4 @@
-package stackjava.com.springmvchibernate.dao;
+package springmvc.hibernate.dao;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import stackjava.com.springmvchibernate.entities.Customer;
+import springmvc.hibernate.entities.Customer;
 
 @Repository(value = "customerDAO")
 @Transactional(rollbackFor = Exception.class)

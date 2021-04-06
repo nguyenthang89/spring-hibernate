@@ -1,4 +1,4 @@
-package stackjava.com.springmvchibernate.controller;
+package springmvc.hibernate.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package stackjava.com.springmvchibernate.entities;
+package springmvc.hibernate.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
